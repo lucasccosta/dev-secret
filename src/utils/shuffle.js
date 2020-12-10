@@ -6,7 +6,7 @@ module.exports = (array) => {
   // Enquanto existir elementos para embaralhar
   while (currentIndex !== 0) {
     // Pegue um elemento aleatoriamente
-    randomIndex = Math.floor(Math.random()) * currentIndex)
+    randomIndex = Math.floor(Math.random() * currentIndex)
     currentIndex -= 1
 
     //  E troque de posição com o elemento atual
